@@ -1,0 +1,219 @@
+/*--------- variables ----------*/
+.register-login {
+  min-height: 100vh;
+  /*--------- resets ----------*/
+  /*---------FIN resets ----------*/
+  /*--------- image background----------*/
+  /*--------- FIN image background----------*/
+  /*--------- h1 and p ----------*/
+  /*---------FIN h1 and p ----------*/
+  /*--------- Containers ----------*/
+  /*---------FIN Containers ----------*/
+  /*--------- sobre escritura de las clases de bootstrap ----------*/
+  /*--------- FIN de  sobre escritura de las clases de bootstrap ----------*/
+  /*--------- forgot password ----------*/
+  /*--------- FIN forgot password ----------*/
+  /*--------- buttons ----------*/
+  /*--------- FIN buttons ----------*/
+  /*--------- responsive ----------*/ }
+  .register-login .padding-none {
+    padding: 0; }
+  .register-login .wrapper {
+    height: 100%; }
+  .register-login .container__image {
+    background: -webkit-gradient(linear, right top, left bottom, from(#242348), to(#5A55AA));
+    background: -webkit-linear-gradient(top right, #242348, #5A55AA);
+    background: -o-linear-gradient(top right, #242348, #5A55AA);
+    background: linear-gradient(to bottom left, #242348, #5A55AA);
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+    position: relative; }
+  .register-login .image--points {
+    background-image: url("../imagenes/svg-points.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .register-login .register-login-h1 {
+    color: #43425D;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+  .register-login .register-login-p {
+    color: #A5A6AC;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px; }
+  .register-login .container-form {
+    margin: 150px 0; }
+  .register-login .container-form {
+    width: 400px; }
+  .register-login .form-group {
+    position: relative;
+    padding-top: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px; }
+  .register-login .form-control {
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    font-size: 14px;
+    border-bottom: 1px solid #E9E9F0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .register-login .form-label {
+    font-size: 15px;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    pointer-events: none; }
+  .register-login .form-control:active,
+  .register-login .form-control:focus,
+  .register-login .form-control:valid {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #43425D; }
+  .register-login .form-control:active ~ .form-label,
+  .register-login .form-control:focus ~ .form-label,
+  .register-login .form-control:valid ~ .form-label {
+    color: #43425D;
+    top: 0px;
+    left: 0; }
+  .register-login .form-check-inline .form-check-input {
+    margin-right: 15px;
+    width: 18px;
+    height: 18px; }
+  .register-login .label--ckecked {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #808495;
+    border-radius: 4px;
+    margin-right: 15px; }
+  .register-login .form-check-label {
+    font-size: 15px; }
+  .register-login .label--ckecked {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .register-login .checked--form--input {
+    display: none; }
+  .register-login .checked--form--input:checked ~ .label--ckecked {
+    background: #242348;
+    border: none; }
+  .register-login .checked--form--input:checked ~ .label--ckecked:before {
+    content: '\2713';
+    color: white;
+    font-size: 12px; }
+  .register-login .forgot__password--link {
+    text-decoration: none;
+    margin-left: auto;
+    font-size: 15px;
+    color: #43425D; }
+  .register-login .forgot__password--link:hover {
+    text-decoration: none;
+    color: #38374e; }
+  .register-login .register-link--haveaccount {
+    text-decoration: none;
+    margin-left: auto;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    color: #43425D; }
+  .register-login .register-link--haveaccount:hover {
+    color: #38374e; }
+  .register-login .btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .register-login .btn-login, .register-login .btn-signup, .register-login .btn-signup--register {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 180px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: 300; }
+  .register-login .btn-login, .register-login .btn-signup--register {
+    border: 1px solid #4D4F5C;
+    background: #43425D;
+    color: white; }
+  .register-login .btn-login {
+    margin-top: 60px; }
+  .register-login .btn-login:hover {
+    background: #38374e; }
+  .register-login .btn-signup {
+    background: white;
+    border: 1px solid #4D4F5C;
+    margin-top: 60px; }
+  .register-login .btn-signup:hover {
+    border: 1px solid #38374e; }
+  .register-login .btn-signup--register {
+    margin: 40px 0; }
+  .register-login .margin--bottom {
+    margin-bottom: 40px; }
+
+@media screen and (min-width: 1400px) {
+  .register-login .bg-image-container {
+    width: 50%; } }
+
+@media screen and (max-width: 992px) {
+  .register-login {
+    height: auto; }
+    .register-login .container__image {
+      min-height: 200px;
+      height: 200px; }
+    .register-login .image--points {
+      background-position: bottom; }
+    .register-login .form-center {
+      margin-top: 0;
+      height: auto;
+      position: relative;
+      top: -120px; }
+    .register-login .container-form {
+      margin: 0;
+      width: 70%; }
+    .register-login .container-form--register {
+      margin: 0; }
+    .register-login .register-login-h1 {
+      color: white; }
+    .register-login .register-login-p {
+      text-align: center;
+      font-size: 15px; }
+    .register-login .btn-login, .register-login .btn-signup, .register-login .btn-signup--register {
+      width: 120px;
+      line-height: 30px; }
+    .register-login .btn-signup {
+      margin-left: 30px; } }
+
+@media screen and (max-width: 480px) {
+  .register-login .image--points {
+    background-size: 200%;
+    background-position: bottom; }
+  .register-login .container-form {
+    width: 90%; }
+  .register-login .btn-signup {
+    margin-left: auto; } }
+
+@media screen and (max-width: 320px) {
+  .register-login .form-center {
+    top: -140px; } }

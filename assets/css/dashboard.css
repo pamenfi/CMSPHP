@@ -1,0 +1,209 @@
+.dropdown-item {
+  color: #A5A4BF;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer; }
+
+.dropdown-item:focus {
+  outline: none;
+  color: #43425D;
+  background: #FFFFFF; }
+
+.table thead th {
+  border: none; }
+
+body {
+  background: #F0F0F7;
+  overflow-x: hidden;
+  font-family: sans-serif; }
+
+.dashboard {
+  overflow-x: hidden; }
+
+.main {
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out; }
+
+.side_nav ul {
+  list-style: none; }
+
+.side_nav {
+  width: 260px;
+  height: 100%;
+  min-height: 100vh;
+  background: #43425D;
+  position: fixed;
+  z-index: 10;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  overflow-x: hidden; }
+
+.side__nav__head {
+  background: rgba(0, 0, 0, 0.1);
+  height: 70px; }
+
+.side__nav--title {
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 3px; }
+
+.side__nav--link {
+  height: 50px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 25px;
+  position: relative; }
+
+.side__nav--link::before {
+  content: '';
+  width: 5px;
+  height: 100%;
+  background: #A3A0FB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; }
+
+.side__nav--link:hover, .side__nav--link:active {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.1); }
+
+.side__nav--link:hover .side__nav--icon, .side__nav--link:active .side__nav--icon {
+  color: #A3A0FB; }
+
+.side__nav--link:hover::before {
+  opacity: 1; }
+
+.active .side__nav--link::before {
+  opacity: 1; }
+
+.active .side__nav--link, .active .side__nav--link {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.1); }
+
+.active .side__nav--icon {
+  color: #A3A0FB; }
+
+.side__nav--icon {
+  margin-right: 12px;
+  color: #A5A4BF; }
+
+.open-menu {
+  color: #FFFFFF; }
+
+.main__container {
+  margin-left: 260px;
+  -webkit-transition: margin .3s ease-out;
+  -o-transition: margin .3s ease-out;
+  transition: margin .3s ease-out; }
+
+.header {
+  height: 70px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.04);
+  margin-left: 260px; }
+
+.container__user {
+  width: auto; }
+
+.container__user::before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  background: #EBEBF2;
+  position: absolute;
+  left: -15px; }
+
+.container__user--btn {
+  border: none;
+  background: transparent;
+  outline: none; }
+
+.container__user--btn:focus {
+  outline: none; }
+
+.username {
+  font-size: 13px;
+  color: #4D4F5C; }
+
+.username--arrow {
+  color: #A4AFB7;
+  cursor: pointer; }
+
+.card__stats {
+  background: #FFFFFF;
+  padding: 18px;
+  padding-right: 100px;
+  margin-bottom: 30px; }
+
+.card__stats--name {
+  color: rgba(67, 66, 93, 0.5);
+  font-size: 12px;
+  margin-bottom: 28px; }
+
+.card__stats--amount {
+  color: #4D4F5C;
+  font-size: 50px;
+  font-weight: bold; }
+
+.last__publications, .last__registers {
+  background: #FFFFFF; }
+
+.table th, td {
+  font-size: 13px; }
+
+.table th {
+  color: #A3A6B4;
+  border: none; }
+
+.t-head {
+  background: #F0F0F7; }
+
+.table--title {
+  color: #4D4F5C;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20px 0; }
+
+@media screen and (min-width: 1440px) {
+  .dashboard {
+    max-width: 1440px;
+    margin: 0; } }
+
+@media screen and (max-width: 991px) {
+  .side_nav {
+    width: 50px; }
+  .side__nav__head {
+    height: 50px; }
+  .header {
+    height: 50px;
+    margin-left: 0; }
+  .main__container {
+    margin-left: 0px; }
+  .side__nav--title {
+    color: #43425D; }
+  .active .side__nav--link, .active .side__nav--link {
+    padding-left: 20px; }
+  .side__nav--link {
+    padding-left: 17px; }
+  .side__nav--icon {
+    margin-right: 15px; }
+  .card__stats--name {
+    color: rgba(67, 66, 93, 0.5);
+    margin-bottom: 10px; }
+  .card__stats--amount {
+    color: #4D4F5C;
+    font-size: 50px;
+    font-weight: bold; } }
+
+@media screen and (max-width: 720px) {
+  .card__stats--amount {
+    color: #4D4F5C;
+    font-size: 30px;
+    font-weight: bold; } }
